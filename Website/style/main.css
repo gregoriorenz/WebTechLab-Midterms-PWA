@@ -8,7 +8,7 @@ html {
     background-color: #eeeeff; 
 }
 
-/* ----- Main Menu ----- */
+/* ----- Nav Top ----- */
 
 .nav {
     overflow: hidden;
@@ -48,7 +48,7 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-    .nav.responsive {position: relative;}
+    .nav.responsive {position: fixed;}
     .nav.responsive .icon {
         position: absolute;
         right: 0;
@@ -62,7 +62,7 @@ html {
     }
 }
 
-/* ----- Main Menu ----- */
+/* ----- Nav Top ----- */
 
 
 
@@ -94,9 +94,30 @@ html {
 }
 
 .where_banner {
-     height: 40vh;
+    height: 70vh;
     background-color: #57b29e;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+#go_banner {
+    background-image: url(imgs/go_banner_bg.jpg);
+}
+
+#eat_banner {
+    background-image: url(imgs/eat_banner_bg.jpg);
+}
+
+#sleep_banner {
+    background-image: url(imgs/sleep_banner_bg.jpg);
+}
+
+#first_content {
+    margin-top: -200px;
+}
+
 /*Home*/
 
 /*About Us*/
@@ -113,7 +134,11 @@ html {
 
 /* ----- Content ----- */
 
+/* ----- Nav Bot ----- */
 
+
+
+/* ----- Nav Bot ----- */
 
 /* ----- Footer ----- */
 
